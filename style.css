@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.root-app {
+  background-image: url(Hotellpool.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85vh;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+li {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 8px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+}
+
+.nav-list li.active {
+  background-color: #929292;
+  border-radius: 5px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.restaurang {
+  display: flex;
+  margin: 4%;
+  background-color: rgba(104, 104, 104, 0.486);
+  transition: 0.5s ease-in-out;
+}
+
+.restaurang:hover {
+  transform: scale(1.01);
+  background-color: rgb(212, 212, 212);
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  transition: 0.1s ease-in-out;
+}
+
+.yee {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+input {
+  width: 190px;
+  display: flex;
+  border: solid rgb(175 174 174) 5px;
+  border-radius: 25px;
+  padding: 8px;
+  margin-top: 3%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  height: 20%;
+  margin: 5%;
+  align-items: center;
+}
+
+.boka {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20%;
+  background-image: url(formbild.png);
+}
+
+select {
+  width: 216px;
+  display: flex;
+  border: solid rgb(137 137 137) 5px;
+  border-radius: 25px;
+  padding: 8px;
+  margin-top: 3%;
+}
+
+h1 {
+  background-color: rgba(104, 104, 104, 0.486);
+  margin: 0px;
+  padding: 14px;
+}
+
+.bokning-root-app {
+  background-color: rgba(104, 104, 104, 0.486);
+}
+
+.bild {
+  size: 30px;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  margin: 5px;
+  margin-left: 30px;
+}
+header {
+  background-image: linear-gradient(273deg, rgb(178 224 241), rgb(200 214 217));
+  height: 100px;
+}
+button {
+  padding: 12px;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: rgb(180 223 239);
+  border-radius: 11px;
+  cursor: pointer;
+}
+.margin {
+  margin-top: 40px;
+}
+
+body {
+  background-color: rgb(228, 228, 228);
+}
+.textbokat {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.textb1 {
+  width: 50px;
+  margin-top: 30px;
+}
+
+.textb2 {
+  width: 427px;
+  font-size: 20px;
+  margin-top: 130px;
+}
+
+.info {
+  background-image: url(marinos-marin-cali-13.jpg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85vh;
+}
+
+.infobild {
+  width: 550px;
+  height: auto;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.infobilder {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.infobild1 {
+  width: 1000px;
+  box-shadow: 11px 9px 8px #7cedff70;
+}
+.infotext {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infobrödtext {
+  width: 350px;
+}
+
+footer {
+  background-color: rgb(180, 180, 180);
+  padding: 1.5%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
